@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E543C6C629519FE80025D35F /* AwaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6C529519FE80025D35F /* AwaApp.swift */; };
+		E543C6C829519FE80025D35F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6C729519FE80025D35F /* ContentView.swift */; };
+		E543C6CA29519FE90025D35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E543C6C929519FE90025D35F /* Assets.xcassets */; };
+		E543C6CD29519FE90025D35F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E543C6CC29519FE90025D35F /* Preview Assets.xcassets */; };
+		E543C6D829519FE90025D35F /* AwaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6D729519FE90025D35F /* AwaTests.swift */; };
+		E543C6E229519FE90025D35F /* AwaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6E129519FE90025D35F /* AwaUITests.swift */; };
+		E543C6E429519FE90025D35F /* AwaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6E329519FE90025D35F /* AwaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E543C6D429519FE90025D35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E543C6BA29519FE80025D35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E543C6C129519FE80025D35F;
+			remoteInfo = Awa;
+		};
+		E543C6DE29519FE90025D35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E543C6BA29519FE80025D35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E543C6C129519FE80025D35F;
+			remoteInfo = Awa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E543C6C229519FE80025D35F /* Awa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Awa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543C6C529519FE80025D35F /* AwaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaApp.swift; sourceTree = "<group>"; };
+		E543C6C729519FE80025D35F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E543C6C929519FE90025D35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E543C6CC29519FE90025D35F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E543C6CE29519FE90025D35F /* Awa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Awa.entitlements; sourceTree = "<group>"; };
+		E543C6D329519FE90025D35F /* AwaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543C6D729519FE90025D35F /* AwaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaTests.swift; sourceTree = "<group>"; };
+		E543C6DD29519FE90025D35F /* AwaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543C6E129519FE90025D35F /* AwaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaUITests.swift; sourceTree = "<group>"; };
+		E543C6E329519FE90025D35F /* AwaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E543C6BF29519FE80025D35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E543C6D029519FE90025D35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E543C6DA29519FE90025D35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E543C6B929519FE80025D35F = {
+			isa = PBXGroup;
+			children = (
+				E543C6C429519FE80025D35F /* Awa */,
+				E543C6D629519FE90025D35F /* AwaTests */,
+				E543C6E029519FE90025D35F /* AwaUITests */,
+				E543C6C329519FE80025D35F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E543C6C329519FE80025D35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E543C6C229519FE80025D35F /* Awa.app */,
+				E543C6D329519FE90025D35F /* AwaTests.xctest */,
+				E543C6DD29519FE90025D35F /* AwaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E543C6C429519FE80025D35F /* Awa */ = {
+			isa = PBXGroup;
+			children = (
+				E543C6C529519FE80025D35F /* AwaApp.swift */,
+				E543C6C729519FE80025D35F /* ContentView.swift */,
+				E543C6C929519FE90025D35F /* Assets.xcassets */,
+				E543C6CE29519FE90025D35F /* Awa.entitlements */,
+				E543C6CB29519FE90025D35F /* Preview Content */,
+			);
+			path = Awa;
+			sourceTree = "<group>";
+		};
+		E543C6CB29519FE90025D35F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E543C6CC29519FE90025D35F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E543C6D629519FE90025D35F /* AwaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E543C6D729519FE90025D35F /* AwaTests.swift */,
+			);
+			path = AwaTests;
+			sourceTree = "<group>";
+		};
+		E543C6E029519FE90025D35F /* AwaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E543C6E129519FE90025D35F /* AwaUITests.swift */,
+				E543C6E329519FE90025D35F /* AwaUITestsLaunchTests.swift */,
+			);
+			path = AwaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E543C6C129519FE80025D35F /* Awa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E543C6E729519FE90025D35F /* Build configuration list for PBXNativeTarget "Awa" */;
+			buildPhases = (
+				E543C6BE29519FE80025D35F /* Sources */,
+				E543C6BF29519FE80025D35F /* Frameworks */,
+				E543C6C029519FE80025D35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Awa;
+			productName = Awa;
+			productReference = E543C6C229519FE80025D35F /* Awa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E543C6D229519FE90025D35F /* AwaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E543C6EA29519FE90025D35F /* Build configuration list for PBXNativeTarget "AwaTests" */;
+			buildPhases = (
+				E543C6CF29519FE90025D35F /* Sources */,
+				E543C6D029519FE90025D35F /* Frameworks */,
+				E543C6D129519FE90025D35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E543C6D529519FE90025D35F /* PBXTargetDependency */,
+			);
+			name = AwaTests;
+			productName = AwaTests;
+			productReference = E543C6D329519FE90025D35F /* AwaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E543C6DC29519FE90025D35F /* AwaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E543C6ED29519FE90025D35F /* Build configuration list for PBXNativeTarget "AwaUITests" */;
+			buildPhases = (
+				E543C6D929519FE90025D35F /* Sources */,
+				E543C6DA29519FE90025D35F /* Frameworks */,
+				E543C6DB29519FE90025D35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E543C6DF29519FE90025D35F /* PBXTargetDependency */,
+			);
+			name = AwaUITests;
+			productName = AwaUITests;
+			productReference = E543C6DD29519FE90025D35F /* AwaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E543C6BA29519FE80025D35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E543C6C129519FE80025D35F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E543C6D229519FE90025D35F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E543C6C129519FE80025D35F;
+					};
+					E543C6DC29519FE90025D35F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E543C6C129519FE80025D35F;
+					};
+				};
+			};
+			buildConfigurationList = E543C6BD29519FE80025D35F /* Build configuration list for PBXProject "Awa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E543C6B929519FE80025D35F;
+			productRefGroup = E543C6C329519FE80025D35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E543C6C129519FE80025D35F /* Awa */,
+				E543C6D229519FE90025D35F /* AwaTests */,
+				E543C6DC29519FE90025D35F /* AwaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E543C6C029519FE80025D35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E543C6CD29519FE90025D35F /* Preview Assets.xcassets in Resources */,
+				E543C6CA29519FE90025D35F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E543C6D129519FE90025D35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E543C6DB29519FE90025D35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E543C6BE29519FE80025D35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E543C6C829519FE80025D35F /* ContentView.swift in Sources */,
+				E543C6C629519FE80025D35F /* AwaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E543C6CF29519FE90025D35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E543C6D829519FE90025D35F /* AwaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E543C6D929519FE90025D35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E543C6E429519FE90025D35F /* AwaUITestsLaunchTests.swift in Sources */,
+				E543C6E229519FE90025D35F /* AwaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E543C6D529519FE90025D35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E543C6C129519FE80025D35F /* Awa */;
+			targetProxy = E543C6D429519FE90025D35F /* PBXContainerItemProxy */;
+		};
+		E543C6DF29519FE90025D35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E543C6C129519FE80025D35F /* Awa */;
+			targetProxy = E543C6DE29519FE90025D35F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E543C6E529519FE90025D35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E543C6E629519FE90025D35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E543C6E829519FE90025D35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Awa/Awa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Awa/Preview Content\"";
+				DEVELOPMENT_TEAM = SAZ52TV6LX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hotaria.Awa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E543C6E929519FE90025D35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Awa/Awa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Awa/Preview Content\"";
+				DEVELOPMENT_TEAM = SAZ52TV6LX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hotaria.Awa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E543C6EB29519FE90025D35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAZ52TV6LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hotaria.AwaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Awa";
+			};
+			name = Debug;
+		};
+		E543C6EC29519FE90025D35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAZ52TV6LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hotaria.AwaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Awa";
+			};
+			name = Release;
+		};
+		E543C6EE29519FE90025D35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAZ52TV6LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hotaria.AwaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Awa;
+			};
+			name = Debug;
+		};
+		E543C6EF29519FE90025D35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAZ52TV6LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hotaria.AwaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Awa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E543C6BD29519FE80025D35F /* Build configuration list for PBXProject "Awa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E543C6E529519FE90025D35F /* Debug */,
+				E543C6E629519FE90025D35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E543C6E729519FE90025D35F /* Build configuration list for PBXNativeTarget "Awa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E543C6E829519FE90025D35F /* Debug */,
+				E543C6E929519FE90025D35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E543C6EA29519FE90025D35F /* Build configuration list for PBXNativeTarget "AwaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E543C6EB29519FE90025D35F /* Debug */,
+				E543C6EC29519FE90025D35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E543C6ED29519FE90025D35F /* Build configuration list for PBXNativeTarget "AwaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E543C6EE29519FE90025D35F /* Debug */,
+				E543C6EF29519FE90025D35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E543C6BA29519FE80025D35F /* Project object */;
+}
