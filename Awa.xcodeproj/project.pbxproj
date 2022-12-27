@@ -14,6 +14,10 @@
 		E543C6D829519FE90025D35F /* AwaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6D729519FE90025D35F /* AwaTests.swift */; };
 		E543C6E229519FE90025D35F /* AwaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6E129519FE90025D35F /* AwaUITests.swift */; };
 		E543C6E429519FE90025D35F /* AwaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C6E329519FE90025D35F /* AwaUITestsLaunchTests.swift */; };
+		E543C6F12951A2160025D35F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E543C6F02951A2160025D35F /* .gitignore */; };
+		E5636128295704E0003EBAB2 /* CountCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5636127295704E0003EBAB2 /* CountCalender.swift */; };
+		E5E645282952BF54001EEA50 /* WordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E645272952BF54001EEA50 /* WordCard.swift */; };
+		E5F05DBB29529DAD009300A9 /* WordCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F05DBA29529DAD009300A9 /* WordCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		E543C6DD29519FE90025D35F /* AwaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543C6E129519FE90025D35F /* AwaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaUITests.swift; sourceTree = "<group>"; };
 		E543C6E329519FE90025D35F /* AwaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E543C6F02951A2160025D35F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E5636127295704E0003EBAB2 /* CountCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountCalender.swift; sourceTree = "<group>"; };
+		E5E645272952BF54001EEA50 /* WordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCard.swift; sourceTree = "<group>"; };
+		E5F05DBA29529DAD009300A9 /* WordCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		E543C6B929519FE80025D35F = {
 			isa = PBXGroup;
 			children = (
+				E543C6F02951A2160025D35F /* .gitignore */,
 				E543C6C429519FE80025D35F /* Awa */,
 				E543C6D629519FE90025D35F /* AwaTests */,
 				E543C6E029519FE90025D35F /* AwaUITests */,
@@ -95,8 +104,8 @@
 		E543C6C429519FE80025D35F /* Awa */ = {
 			isa = PBXGroup;
 			children = (
+				E54F2FC5295B276A00CE91BC /* Views */,
 				E543C6C529519FE80025D35F /* AwaApp.swift */,
-				E543C6C729519FE80025D35F /* ContentView.swift */,
 				E543C6C929519FE90025D35F /* Assets.xcassets */,
 				E543C6CE29519FE90025D35F /* Awa.entitlements */,
 				E543C6CB29519FE90025D35F /* Preview Content */,
@@ -127,6 +136,25 @@
 				E543C6E329519FE90025D35F /* AwaUITestsLaunchTests.swift */,
 			);
 			path = AwaUITests;
+			sourceTree = "<group>";
+		};
+		E54F2FC5295B276A00CE91BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E54F2FC6295B27A400CE91BC /* MainContent */,
+				E543C6C729519FE80025D35F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E54F2FC6295B27A400CE91BC /* MainContent */ = {
+			isa = PBXGroup;
+			children = (
+				E5F05DBA29529DAD009300A9 /* WordCount.swift */,
+				E5E645272952BF54001EEA50 /* WordCard.swift */,
+				E5636127295704E0003EBAB2 /* CountCalender.swift */,
+			);
+			path = MainContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E543C6CD29519FE90025D35F /* Preview Assets.xcassets in Resources */,
+				E543C6F12951A2160025D35F /* .gitignore in Resources */,
 				E543C6CA29519FE90025D35F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E645282952BF54001EEA50 /* WordCard.swift in Sources */,
 				E543C6C829519FE80025D35F /* ContentView.swift in Sources */,
+				E5636128295704E0003EBAB2 /* CountCalender.swift in Sources */,
 				E543C6C629519FE80025D35F /* AwaApp.swift in Sources */,
+				E5F05DBB29529DAD009300A9 /* WordCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
